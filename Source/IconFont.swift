@@ -1,12 +1,12 @@
 //
 //  IconFont.swift
 //
-//  Created by Vanessa Sun on 7/18/16.
+//  Created by vsun on 7/18/16.
 //
 //
 // Protocol for all generated IconFonts
 
-import Foundation
+import UIKit
 
 public protocol IconFont {
     var name: String { get }
@@ -42,21 +42,41 @@ public protocol IconFont {
      - returns: return the registered UIFont; nil is returned for unregistered font
      */
     static func iconFont(pointSize pointSize: CGFloat) -> UIFont?
+    
+    /**
+     register the font in system. Note: an exception will be thrown if the resource (ttf/otf) font file is not found in the bundle
+    */
     static func register()
+    /**
+     remove the font from the system
+    */
+    static func unregister()
 }
 
 extension IconFont {
     
     public static func iconFont(pointSize pointSize: CGFloat) -> UIFont? {
+        guard pointSize > 0 else {
+            return nil
+        }
+        
         return UIFont(name: familyName, size: pointSize)
     }
-    public static func register() {
-        
+    private static var resourceUrl: NSURL? {
         let extensions = ["otf", "ttf"]
         let bundle = NSBundle(forClass: Iconic.self)
         
         guard let url = (extensions.flatMap { bundle.URLForResource(familyName, withExtension: $0) }).first else {
-            assertionFailure("font :\(self.familyName) not found in bundle:\(bundle)")
+            print("font :\(self.familyName) not found in bundle:\(bundle)")
+            return nil
+        }
+        return url
+ 
+    }
+    public static func register() {
+        
+        guard let url = resourceUrl else {
+            assertionFailure("resource not found in bundle")
             return
         }
         
@@ -78,6 +98,20 @@ extension IconFont {
         
         print("font '\(self.familyName)' registered")
         
+    }
+    
+    public static func unregister() {
+        guard let url = resourceUrl else {
+            print("resource not found in bundle, nothing to unregister")
+            return
+        }
+        
+        var error: Unmanaged<CFErrorRef>? = nil
+        if CTFontManagerUnregisterFontsForURL(url, .None, &error) == true {
+            print("'\(self.familyName)' has been unregistered.")
+        } else {
+            print("Failed unregistering font with the name '\(self.familyName)' at path \(url) with error: \(error).")
+        }
     }
     
     public func image(size size:CGSize, color:UIColor?, edgeInsets: UIEdgeInsets? = nil) -> UIImage {
