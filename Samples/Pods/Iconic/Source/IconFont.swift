@@ -46,11 +46,11 @@ public protocol IconFont {
     /**
      register the font in system. Note: an exception will be thrown if the resource (ttf/otf) font file is not found in the bundle
     */
-    static func register(bundle bundle: NSBundle?)
+    static func register()
     /**
      remove the font from the system
     */
-    static func unregister(bundle bundle: NSBundle?)
+    static func unregister()
 }
 
 extension IconFont {
@@ -62,9 +62,9 @@ extension IconFont {
         
         return UIFont(name: familyName, size: pointSize)
     }
-    private static func resourceUrl(bundle b: NSBundle?) -> NSURL? {
+    private static var resourceUrl: NSURL? {
         let extensions = ["otf", "ttf"]
-        let bundle = b ?? NSBundle(forClass: Iconic.self)
+        let bundle = NSBundle(forClass: Iconic.self)
         
         guard let url = (extensions.flatMap { bundle.URLForResource(familyName, withExtension: $0) }).first else {
             print("font :\(self.familyName) not found in bundle:\(bundle)")
@@ -73,9 +73,9 @@ extension IconFont {
         return url
  
     }
-    public static func register(bundle bundle: NSBundle? = nil) {
+    public static func register() {
         
-        guard let url = resourceUrl(bundle:bundle) else {
+        guard let url = resourceUrl else {
             assertionFailure("resource not found in bundle")
             return
         }
@@ -100,8 +100,8 @@ extension IconFont {
         
     }
     
-    public static func unregister(bundle bundle: NSBundle? = nil) {
-        guard let url = resourceUrl(bundle:bundle) else {
+    public static func unregister() {
+        guard let url = resourceUrl else {
             print("resource not found in bundle, nothing to unregister")
             return
         }

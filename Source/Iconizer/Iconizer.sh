@@ -53,7 +53,7 @@ function generate()
     mkdir -p ${CATALOG_DIR}/html
 
     # Executes Swiftgen with a custom stencil template
-    ${EXEC_PATH} icons ${FILE_FULL} --templatePath ${STENCIL_PATH} --output ${SOURCE_DIR}${OUTPUT_NAME}.swift --enumName ${OUTPUT_NAME}
+    ${EXEC_PATH} icons ${FILE_FULL} --templatePath ${STENCIL_PATH} --output ${SOURCE_DIR}${OUTPUT_NAME}.swift --enumName ${OUTPUT_NAME} 
 
     # Renames and moves the JSON output to the HTML source directory
     mv ${SOURCE_DIR}${OUTPUT_NAME}.json ${CATALOG_DIR}/html/data.json

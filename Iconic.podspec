@@ -17,13 +17,16 @@ Pod::Spec.new do |s|
   }
 
   s.source = {
-      :git => 'https://github.com/dzenbot/Iconic.git',
+      #      :git => 'https://github.com/dzenbot/Iconic.git',
+      # for testing
+      :git => 'https://github.com/connectdotz/Iconic.git',
       :tag => @version,
       :submodules => true
   }
 
   s.source_files    = 'Source/*.{swift}'
   s.resources       = 'Source/*.{ttf,otf}'
+  #s.preserve_paths  = 'Source/Iconizer/catalog/**/*.*'
   s.preserve_paths  = 'Source/catalog/**/*.*'
   s.framework       = 'UIKit', 'CoreText'
 

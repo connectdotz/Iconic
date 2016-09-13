@@ -8,30 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		0AD746F9827BBBB276ACD19A69936D21 /* Pods-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C1693D07CE3E21B02F3823AC9D4EBF24 /* Pods-tvOS-dummy.m */; };
-		0FD5DB503658E0D577CC247299F0949C /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DF88162839D74742566E6BBC9B9F78 /* CoreText.framework */; };
-		122C66E7176FCB44FAB67D76312D846D /* Iconic-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 348D59F933EE987DC708801AE55AA7AA /* Iconic-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0F3AFAEB137E2A7B9FCD14F8DBB2822B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB644186D556EE6B6C5FC75FB81F0E9 /* UIKit.framework */; };
 		181642A6BB61DBFF130AE26D06DEEF44 /* Pods-UnitTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87EB8DE6592DFA2CBAD9BCE6800CFCFB /* Pods-UnitTests-dummy.m */; };
-		194047572A042020FF7B6ADE10712374 /* Iconic-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBEC4754D5940CBBF0D971C70D1ABDA6 /* Iconic-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1BC854108A68F5E786B73DFC44BA25F2 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF147A7E2A23724694E979009AC874 /* CoreText.framework */; };
+		252EAB832F50FA6A86AA87AAEB7EEDBC /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165A0BDD2D2B33774B95AD56582CD9C1 /* IconFont.swift */; };
+		284C5C62428AC467E2337000573C09E7 /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C628BBF1216D69D7F45E158A25FB01B /* FontAwesomeIcon.swift */; };
+		287D11CA10FD6FA3504190EE6D497062 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAB75BD3B4997AD510DE9E931CBF7F2 /* Foundation.framework */; };
 		30ABC0046B8353D1C6DF2E67A0659318 /* Pods-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7FD5E558D81A013FCB86D06BA2460CF /* Pods-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34BE3A05510B71B274A45BD5722711F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE0A1C5D4E2A0F503236293A22F9E0 /* UIKit.framework */; };
-		3826C04E01841F2BCBB33B28D13BD8E3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BF147A7E2A23724694E979009AC874 /* CoreText.framework */; };
-		38D1296DE38509CEB221C5ECDBEDB8FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD2384FE0522CFB96142C30D07817D /* Foundation.framework */; };
-		3987C574067E7B1FE9164526B55E7381 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBE8E122B0E4787BE80C23F47F0E4238 /* FontAwesome.ttf */; };
-		42AB6557434F5095FE9DAE147D9122B6 /* Iconic-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7AD4C841C9F38E365E5E0EAF24BFEC /* Iconic-iOS-dummy.m */; };
-		7971F2F8D897B0223A35B54717CA5BA4 /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B39A31B543D62876E0FB803C3EA24B /* FontAwesomeIcon.swift */; };
+		4C3E4F19A4CFF8C417A2714AB914E96C /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 257839ECB2243F26EAB37331EEBD5F5E /* FontAwesome.ttf */; };
+		5035391AA25E758A0C53C98678B1014E /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C628BBF1216D69D7F45E158A25FB01B /* FontAwesomeIcon.swift */; };
+		54C54D24A23D73DFA3AFD37E342FF2FD /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4617F13790C356FAB05589B9D2D67BAD /* Iconic.swift */; };
+		5DE872EC088A9B37AF1EE7CC4EF24FF4 /* IconFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 165A0BDD2D2B33774B95AD56582CD9C1 /* IconFont.swift */; };
+		733DC0BF93362CDAB368057A0B7CC9D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD2384FE0522CFB96142C30D07817D /* Foundation.framework */; };
 		7B5623C3D76AD8AFB2F2E4C706715496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAB75BD3B4997AD510DE9E931CBF7F2 /* Foundation.framework */; };
-		7F7DE142BB977C12D340CF9A60A9D546 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B8CD527225500BE09284DF568B443 /* Iconic.swift */; };
-		A52806BB7B74D0692E158ABF7D18312A /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 336B8CD527225500BE09284DF568B443 /* Iconic.swift */; };
+		85CB5125D8CE54D55CBEC07B05B068F1 /* Iconic-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2B500EE3FD67FA2EBCCE67E96C49AC /* Iconic-iOS-dummy.m */; };
+		9ADB8CA759AA7D5D315EAD76F6BF0BDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAFE0A1C5D4E2A0F503236293A22F9E0 /* UIKit.framework */; };
+		A3E81BB212706A528373ED35785F79BE /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 257839ECB2243F26EAB37331EEBD5F5E /* FontAwesome.ttf */; };
 		A94BF36844A97FFCF70B022364716E7F /* Pods-UnitTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D64BA35405D54FB49DE3E7ADEA60D6F /* Pods-UnitTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFBE73FB84B7FAB1D4F8049B2D1D8A88 /* Iconic-tvOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59981388310FC3CA0E459D509F58B25A /* Iconic-tvOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6F2C9B1932E76BBDEDABA0EBA2013BA /* Iconic-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E9A1EA9AF96D7AEE226619963C606E5 /* Iconic-tvOS-dummy.m */; };
+		B88B7096A5103F1DE9C7C6F421AE0059 /* Iconic-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48409E8292507B5B99B42CD9AA9DEE93 /* Iconic-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDB9680A669AE37E61DB5278A1C6394F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD2384FE0522CFB96142C30D07817D /* Foundation.framework */; };
-		CCD66F4C4391651964B8DFED90E61FFF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EB644186D556EE6B6C5FC75FB81F0E9 /* UIKit.framework */; };
-		D5108AEB5F71BEBFF01917E8AC59D613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EAB75BD3B4997AD510DE9E931CBF7F2 /* Foundation.framework */; };
 		D983D910235A3B6864DDC9B669F0BFD4 /* Pods-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CECFE06CF5153BB82F91930691925E9B /* Pods-iOS-dummy.m */; };
-		DE6E95DEB8C21E0E75571D05E32646D0 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EBE8E122B0E4787BE80C23F47F0E4238 /* FontAwesome.ttf */; };
-		E0499CDB2B0160214808F2A87E0C711D /* FontAwesomeIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B39A31B543D62876E0FB803C3EA24B /* FontAwesomeIcon.swift */; };
 		E283585AB873041EF35493621B2EDF7B /* Pods-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48E22416DCA58669F7F2997C78CEB3B2 /* Pods-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EE1C1EA1B075E8C614F314A4D57E7188 /* Iconic-tvOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1399BE1DAF6A3FADD8B33379B3BFD8D3 /* Iconic-tvOS-dummy.m */; };
+		E6657C0EE9E03F4C93A55E241C967C57 /* Iconic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4617F13790C356FAB05589B9D2D67BAD /* Iconic.swift */; };
 		F1BB364F259BBE7E6010C36C58CD7FCE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9DD2384FE0522CFB96142C30D07817D /* Foundation.framework */; };
+		FDDE95A6618A110FF5A61482129301B7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DF88162839D74742566E6BBC9B9F78 /* CoreText.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,41 +41,45 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5BC073EA3FFD476D4B85D717ED04FD16;
+			remoteGlobalIDString = 5ACD38D4BFBC11795674DDEA00B4EBD6;
 			remoteInfo = "Iconic-iOS";
 		};
 		A5D37F5CAA408E82E583616C3DA808F2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = ABA16FF30B43B8F3E26650D8D4C0BD71;
+			remoteGlobalIDString = ABA80DE083D90CABB38D4C24F35C8D8A;
 			remoteInfo = "Iconic-tvOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		027C421B4AE0646943AF89C97238489B /* Pods-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		1382E9D5E3C360059EF611D3D91C65B5 /* Iconic-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Iconic-iOS.modulemap"; sourceTree = "<group>"; };
-		1399BE1DAF6A3FADD8B33379B3BFD8D3 /* Iconic-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Iconic-tvOS-dummy.m"; path = "../Iconic-tvOS/Iconic-tvOS-dummy.m"; sourceTree = "<group>"; };
+		165A0BDD2D2B33774B95AD56582CD9C1 /* IconFont.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IconFont.swift; sourceTree = "<group>"; };
 		17D2A9BD328D0936B878AEB1984F1C9D /* Pods-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		186D6B2DFCF71A3B4FE060068A3A1329 /* Pods-tvOS-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-tvOS-acknowledgements.markdown"; sourceTree = "<group>"; };
-		32F9F8B8D69F8B1A942FA0F90F0CC55D /* Iconic-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Iconic-tvOS.xcconfig"; path = "../Iconic-tvOS/Iconic-tvOS.xcconfig"; sourceTree = "<group>"; };
-		336B8CD527225500BE09284DF568B443 /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Iconic.swift; path = Source/Iconic.swift; sourceTree = "<group>"; };
-		348D59F933EE987DC708801AE55AA7AA /* Iconic-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Iconic-iOS-umbrella.h"; sourceTree = "<group>"; };
+		257839ECB2243F26EAB37331EEBD5F5E /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
 		37BF147A7E2A23724694E979009AC874 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		4617F13790C356FAB05589B9D2D67BAD /* Iconic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Iconic.swift; sourceTree = "<group>"; };
+		48409E8292507B5B99B42CD9AA9DEE93 /* Iconic-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Iconic-iOS-umbrella.h"; sourceTree = "<group>"; };
 		48E22416DCA58669F7F2997C78CEB3B2 /* Pods-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOS-umbrella.h"; sourceTree = "<group>"; };
 		4CD1484ABFDCD94153813B2B76A058D1 /* Pods-UnitTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitTests-frameworks.sh"; sourceTree = "<group>"; };
 		4D64BA35405D54FB49DE3E7ADEA60D6F /* Pods-UnitTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnitTests-umbrella.h"; sourceTree = "<group>"; };
 		51517556546DB0D67E5A4FF308AFCE0D /* Pods-UnitTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-UnitTests.modulemap"; sourceTree = "<group>"; };
+		553B0265D549383817189D3CF9149FAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Iconic-tvOS/Info.plist"; sourceTree = "<group>"; };
+		55DE39CCDC6E267FDBC49F74F3043726 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		575DD0C6033E1EE3E33792AE4FF61EA6 /* Iconic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Iconic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59981388310FC3CA0E459D509F58B25A /* Iconic-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Iconic-tvOS-umbrella.h"; path = "../Iconic-tvOS/Iconic-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		5A413A14097742E125CB334D61408592 /* Pods_UnitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D701E91EA9167EAB0BDF58F223501DD /* Pods-UnitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E284B52DDB6201A6DEE208281D86F09 /* Iconic-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Iconic-iOS.modulemap"; sourceTree = "<group>"; };
 		6794F2DA177A4BD2B9FC4D909EA39715 /* Pods-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-tvOS.modulemap"; sourceTree = "<group>"; };
-		6C5960B2161CEE587502BBDCA3E50288 /* Iconic-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Iconic-tvOS-prefix.pch"; path = "../Iconic-tvOS/Iconic-tvOS-prefix.pch"; sourceTree = "<group>"; };
+		6E9A1EA9AF96D7AEE226619963C606E5 /* Iconic-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Iconic-tvOS-dummy.m"; path = "../Iconic-tvOS/Iconic-tvOS-dummy.m"; sourceTree = "<group>"; };
 		6EAB75BD3B4997AD510DE9E931CBF7F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		721F841765D11B4E7BE1DC4444172904 /* Iconic-tvOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Iconic-tvOS-prefix.pch"; path = "../Iconic-tvOS/Iconic-tvOS-prefix.pch"; sourceTree = "<group>"; };
 		747DFFFD1288A7FAC7151EBEB8613FC2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7BDD11680B98A298ACC4FF8A1B45485E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BF1285ECFC07F6D57C88843DA7154AB /* Pods-iOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOS-acknowledgements.plist"; sourceTree = "<group>"; };
+		7C2B500EE3FD67FA2EBCCE67E96C49AC /* Iconic-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Iconic-iOS-dummy.m"; sourceTree = "<group>"; };
 		7EB644186D556EE6B6C5FC75FB81F0E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS9.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		7EFCAA00D6B8E075865184A754CBAB5D /* Pods-UnitTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnitTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F5E174040A6895EEA38F73A455ED0A3 /* Iconic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Iconic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,36 +88,43 @@
 		87234ABB13A259B13026DB33BB6974C3 /* Pods-tvOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS-frameworks.sh"; sourceTree = "<group>"; };
 		87EB8DE6592DFA2CBAD9BCE6800CFCFB /* Pods-UnitTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnitTests-dummy.m"; sourceTree = "<group>"; };
 		88A6E4EE3264DF58B1AC4D92E32CFE66 /* Pods-iOS-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-frameworks.sh"; sourceTree = "<group>"; };
-		89B776FE706AE7A643F988FBE94614E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = Info.plist; path = "../Iconic-tvOS/Info.plist"; sourceTree = "<group>"; };
 		8B6EDF46E6F64379B30F0C8A60ADE4B3 /* Pods-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		8C628BBF1216D69D7F45E158A25FB01B /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontAwesomeIcon.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93DF1DE507E4C371C4EFF7570DC5E08D /* Pods_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9553F37B3001D83FC47BFADA547DCCD5 /* Pods_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		95EDBA1E8A2C3097ECB6798C840DE53E /* Iconic-tvOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Iconic-tvOS.xcconfig"; path = "../Iconic-tvOS/Iconic-tvOS.xcconfig"; sourceTree = "<group>"; };
 		9B1EC84BAD8DDD54C5B63D2AA7741A02 /* Pods-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOS.modulemap"; sourceTree = "<group>"; };
-		9E7AD4C841C9F38E365E5E0EAF24BFEC /* Iconic-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Iconic-iOS-dummy.m"; sourceTree = "<group>"; };
-		A3C91A7D312859955EB76EFC4AF73E8D /* Iconic-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Iconic-iOS.xcconfig"; sourceTree = "<group>"; };
+		A24841794B1C5A5AC2052D2BF5B83D3C /* Iconic-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Iconic-iOS-prefix.pch"; sourceTree = "<group>"; };
+		A3E42C27117BED89DC240108EC41041D /* Iconic-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Iconic-tvOS.modulemap"; path = "../Iconic-tvOS/Iconic-tvOS.modulemap"; sourceTree = "<group>"; };
 		ABA781573A78A22844A3F64F2A90E2BC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AFFA631B08B2AE255CBF02A99F280796 /* Iconic-tvOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; name = "Iconic-tvOS.modulemap"; path = "../Iconic-tvOS/Iconic-tvOS.modulemap"; sourceTree = "<group>"; };
+		BCF86947608DD8E0BE98D29D756F9A19 /* Iconic-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Iconic-iOS.xcconfig"; sourceTree = "<group>"; };
 		BD1B4605D3B3AA024D593BEB3AB9F610 /* Pods-UnitTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnitTests-resources.sh"; sourceTree = "<group>"; };
 		C1693D07CE3E21B02F3823AC9D4EBF24 /* Pods-tvOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-tvOS-dummy.m"; sourceTree = "<group>"; };
 		C602893E4B9A66B7BD252195DAB4F946 /* Pods-tvOS-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-tvOS-acknowledgements.plist"; sourceTree = "<group>"; };
 		C96E3F8F39ACF24F0F5B5DF1A4698331 /* Pods-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		CECFE06CF5153BB82F91930691925E9B /* Pods-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOS-dummy.m"; sourceTree = "<group>"; };
 		DCEC17CDB05C3E47F902F3C1F8E6B14A /* Pods-UnitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnitTests.debug.xcconfig"; sourceTree = "<group>"; };
-		E1B39A31B543D62876E0FB803C3EA24B /* FontAwesomeIcon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FontAwesomeIcon.swift; path = Source/FontAwesomeIcon.swift; sourceTree = "<group>"; };
 		E7FD5E558D81A013FCB86D06BA2460CF /* Pods-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		E8ED496D33416B0F019CDDAC3E2F0A51 /* Pods-iOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOS-resources.sh"; sourceTree = "<group>"; };
 		EA3AC4383D1C312B8A06B51835A6F639 /* Pods-tvOS-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-tvOS-resources.sh"; sourceTree = "<group>"; };
-		EA8DB57E830C1FC97D12AC5106C571A0 /* Iconic-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Iconic-iOS-prefix.pch"; sourceTree = "<group>"; };
 		EB8AB70BB5837765F60014BB8A220867 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBE8E122B0E4787BE80C23F47F0E4238 /* FontAwesome.ttf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = FontAwesome.ttf; path = Source/FontAwesome.ttf; sourceTree = "<group>"; };
-		EBEC4754D5940CBBF0D971C70D1ABDA6 /* Iconic-tvOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Iconic-tvOS-umbrella.h"; path = "../Iconic-tvOS/Iconic-tvOS-umbrella.h"; sourceTree = "<group>"; };
 		F8CDE4BC2101FFF91FF7C1B2F8EEA7AF /* Pods-UnitTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnitTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9DD2384FE0522CFB96142C30D07817D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		FAFE0A1C5D4E2A0F503236293A22F9E0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		012AA126D36C4AA504E70D587FA8F0C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDE95A6618A110FF5A61482129301B7 /* CoreText.framework in Frameworks */,
+				287D11CA10FD6FA3504190EE6D497062 /* Foundation.framework in Frameworks */,
+				0F3AFAEB137E2A7B9FCD14F8DBB2822B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2A73449C46FCA6E6F719AE32F5DD6FD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -120,13 +133,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D48DF2060C0AEC42C779D2454037BE6 /* Frameworks */ = {
+		5E80A640FCEEBF1C7B0ADB3E4916BBCE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FD5DB503658E0D577CC247299F0949C /* CoreText.framework in Frameworks */,
-				D5108AEB5F71BEBFF01917E8AC59D613 /* Foundation.framework in Frameworks */,
-				CCD66F4C4391651964B8DFED90E61FFF /* UIKit.framework in Frameworks */,
+				1BC854108A68F5E786B73DFC44BA25F2 /* CoreText.framework in Frameworks */,
+				733DC0BF93362CDAB368057A0B7CC9D7 /* Foundation.framework in Frameworks */,
+				9ADB8CA759AA7D5D315EAD76F6BF0BDF /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,16 +148,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5623C3D76AD8AFB2F2E4C706715496 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E0EA54E25594EAFE27570730C19B8004 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3826C04E01841F2BCBB33B28D13BD8E3 /* CoreText.framework in Frameworks */,
-				38D1296DE38509CEB221C5ECDBEDB8FD /* Foundation.framework in Frameworks */,
-				34BE3A05510B71B274A45BD5722711F1 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,12 +200,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		714656380D76C2F7A7332F59EA3A2C33 /* Resources */ = {
+		3AC40C171A1582DCCD9FC59D2D1861A1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				EBE8E122B0E4787BE80C23F47F0E4238 /* FontAwesome.ttf */,
+				F8D3D9589ECE03E8B3DD9ECBA0FBCD55 /* Source */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		5189212D3B18F3F4A9AA4990A86F4CDB /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8C628BBF1216D69D7F45E158A25FB01B /* FontAwesomeIcon.swift */,
+				165A0BDD2D2B33774B95AD56582CD9C1 /* IconFont.swift */,
+				4617F13790C356FAB05589B9D2D67BAD /* Iconic.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		6A5CC18271243A837EFC4AE4E3E17FA1 /* Iconic */ = {
+			isa = PBXGroup;
+			children = (
+				3AC40C171A1582DCCD9FC59D2D1861A1 /* Resources */,
+				5189212D3B18F3F4A9AA4990A86F4CDB /* Source */,
+				C61B135F90074EE6D0EC6F1D8F9381E2 /* Support Files */,
+			);
+			name = Iconic;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7556FD02EB07DC82E1AEDD87783FB497 /* Frameworks */ = {
@@ -218,8 +242,8 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				F198AE2F032E09C190A719A5DE9ED54B /* Development Pods */,
 				7556FD02EB07DC82E1AEDD87783FB497 /* Frameworks */,
-				F0B1C2CC224458578DCF37C74FCE8A6E /* Pods */,
 				E6E52453DEF935943F3176A99C71D989 /* Products */,
 				1A4D833E487D1605EED71958F930D187 /* Targets Support Files */,
 			);
@@ -243,35 +267,24 @@
 			path = "Target Support Files/Pods-tvOS";
 			sourceTree = "<group>";
 		};
-		87FDE789879D0DE7600B0FC17042CE6F /* Iconic */ = {
+		C61B135F90074EE6D0EC6F1D8F9381E2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E1B39A31B543D62876E0FB803C3EA24B /* FontAwesomeIcon.swift */,
-				336B8CD527225500BE09284DF568B443 /* Iconic.swift */,
-				714656380D76C2F7A7332F59EA3A2C33 /* Resources */,
-				AC94D4B404F0FE45A13764F713A2E24F /* Support Files */,
-			);
-			path = Iconic;
-			sourceTree = "<group>";
-		};
-		AC94D4B404F0FE45A13764F713A2E24F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1382E9D5E3C360059EF611D3D91C65B5 /* Iconic-iOS.modulemap */,
-				A3C91A7D312859955EB76EFC4AF73E8D /* Iconic-iOS.xcconfig */,
-				9E7AD4C841C9F38E365E5E0EAF24BFEC /* Iconic-iOS-dummy.m */,
-				EA8DB57E830C1FC97D12AC5106C571A0 /* Iconic-iOS-prefix.pch */,
-				348D59F933EE987DC708801AE55AA7AA /* Iconic-iOS-umbrella.h */,
-				AFFA631B08B2AE255CBF02A99F280796 /* Iconic-tvOS.modulemap */,
-				32F9F8B8D69F8B1A942FA0F90F0CC55D /* Iconic-tvOS.xcconfig */,
-				1399BE1DAF6A3FADD8B33379B3BFD8D3 /* Iconic-tvOS-dummy.m */,
-				6C5960B2161CEE587502BBDCA3E50288 /* Iconic-tvOS-prefix.pch */,
-				EBEC4754D5940CBBF0D971C70D1ABDA6 /* Iconic-tvOS-umbrella.h */,
-				7BDD11680B98A298ACC4FF8A1B45485E /* Info.plist */,
-				89B776FE706AE7A643F988FBE94614E4 /* Info.plist */,
+				5E284B52DDB6201A6DEE208281D86F09 /* Iconic-iOS.modulemap */,
+				BCF86947608DD8E0BE98D29D756F9A19 /* Iconic-iOS.xcconfig */,
+				7C2B500EE3FD67FA2EBCCE67E96C49AC /* Iconic-iOS-dummy.m */,
+				A24841794B1C5A5AC2052D2BF5B83D3C /* Iconic-iOS-prefix.pch */,
+				48409E8292507B5B99B42CD9AA9DEE93 /* Iconic-iOS-umbrella.h */,
+				A3E42C27117BED89DC240108EC41041D /* Iconic-tvOS.modulemap */,
+				95EDBA1E8A2C3097ECB6798C840DE53E /* Iconic-tvOS.xcconfig */,
+				6E9A1EA9AF96D7AEE226619963C606E5 /* Iconic-tvOS-dummy.m */,
+				721F841765D11B4E7BE1DC4444172904 /* Iconic-tvOS-prefix.pch */,
+				59981388310FC3CA0E459D509F58B25A /* Iconic-tvOS-umbrella.h */,
+				55DE39CCDC6E267FDBC49F74F3043726 /* Info.plist */,
+				553B0265D549383817189D3CF9149FAD /* Info.plist */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Iconic-iOS";
+			path = "Samples/Pods/Target Support Files/Iconic-iOS";
 			sourceTree = "<group>";
 		};
 		D8A88264539C5AA7389C1E380905559F /* iOS */ = {
@@ -314,17 +327,41 @@
 			path = "Target Support Files/Pods-iOS";
 			sourceTree = "<group>";
 		};
-		F0B1C2CC224458578DCF37C74FCE8A6E /* Pods */ = {
+		F198AE2F032E09C190A719A5DE9ED54B /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				87FDE789879D0DE7600B0FC17042CE6F /* Iconic */,
+				6A5CC18271243A837EFC4AE4E3E17FA1 /* Iconic */,
 			);
-			name = Pods;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F8D3D9589ECE03E8B3DD9ECBA0FBCD55 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				257839ECB2243F26EAB37331EEBD5F5E /* FontAwesome.ttf */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		394111A762355EDB7CD337B022A213BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFBE73FB84B7FAB1D4F8049B2D1D8A88 /* Iconic-tvOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44BD4A5F5CC58616F06E4E7A0FB8BCCF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88B7096A5103F1DE9C7C6F421AE0059 /* Iconic-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		52F00CC712597E82E32C2605A85E1CFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -333,27 +370,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		638DF72935D99A2A22F42AEB09CE90F8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				194047572A042020FF7B6ADE10712374 /* Iconic-tvOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6C59B4D8E2C6DB36DFCB58C0C7424DA0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				30ABC0046B8353D1C6DF2E67A0659318 /* Pods-tvOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7F7A61A547C0894453BF3DEC68AF29AA /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				122C66E7176FCB44FAB67D76312D846D /* Iconic-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,14 +425,14 @@
 			productReference = 93DF1DE507E4C371C4EFF7570DC5E08D /* Pods_tvOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5BC073EA3FFD476D4B85D717ED04FD16 /* Iconic-iOS */ = {
+		5ACD38D4BFBC11795674DDEA00B4EBD6 /* Iconic-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A43C1DC3A2A21ACCD5C8168D7817D5D3 /* Build configuration list for PBXNativeTarget "Iconic-iOS" */;
+			buildConfigurationList = AC8D236569775A1504F873C7A420E75E /* Build configuration list for PBXNativeTarget "Iconic-iOS" */;
 			buildPhases = (
-				6E4ECF6CC21F644835FDB7B1E9CCD262 /* Sources */,
-				E0EA54E25594EAFE27570730C19B8004 /* Frameworks */,
-				B8E99189C7DA9F5B4BF88ABE9BE651DD /* Resources */,
-				7F7A61A547C0894453BF3DEC68AF29AA /* Headers */,
+				BFA7CEE5F28374BFEF9745A3CF058838 /* Sources */,
+				5E80A640FCEEBF1C7B0ADB3E4916BBCE /* Frameworks */,
+				102F1ED48938F133A8B3BE0F6442B1A7 /* Resources */,
+				44BD4A5F5CC58616F06E4E7A0FB8BCCF /* Headers */,
 			);
 			buildRules = (
 			);
@@ -422,14 +443,14 @@
 			productReference = 575DD0C6033E1EE3E33792AE4FF61EA6 /* Iconic.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		ABA16FF30B43B8F3E26650D8D4C0BD71 /* Iconic-tvOS */ = {
+		ABA80DE083D90CABB38D4C24F35C8D8A /* Iconic-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE47F6DD88602C73E6E5394BF77FBE50 /* Build configuration list for PBXNativeTarget "Iconic-tvOS" */;
+			buildConfigurationList = C4D2ABF89ADC3A0F2FE945F81CDF0F73 /* Build configuration list for PBXNativeTarget "Iconic-tvOS" */;
 			buildPhases = (
-				8D9549DA1BAB46C5F5963E67D47685BF /* Sources */,
-				8D48DF2060C0AEC42C779D2454037BE6 /* Frameworks */,
-				700BA79CB9A9A86E03BADE8810FC68D6 /* Resources */,
-				638DF72935D99A2A22F42AEB09CE90F8 /* Headers */,
+				3A53AD6A4FEBDC09B9A9A7C25C842B04 /* Sources */,
+				012AA126D36C4AA504E70D587FA8F0C8 /* Frameworks */,
+				5FDB482FCC2EBEA7A1DACAB44361CD15 /* Resources */,
+				394111A762355EDB7CD337B022A213BD /* Headers */,
 			);
 			buildRules = (
 			);
@@ -464,7 +485,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0700;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -478,8 +499,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5BC073EA3FFD476D4B85D717ED04FD16 /* Iconic-iOS */,
-				ABA16FF30B43B8F3E26650D8D4C0BD71 /* Iconic-tvOS */,
+				5ACD38D4BFBC11795674DDEA00B4EBD6 /* Iconic-iOS */,
+				ABA80DE083D90CABB38D4C24F35C8D8A /* Iconic-tvOS */,
 				0E34A302FDF162223FBDEFBD021DF3DB /* Pods-iOS */,
 				2EFFD252760EE61C0EB455BAC71015B8 /* Pods-tvOS */,
 				FA964775ACACBDC72EC811A018122F8A /* Pods-UnitTests */,
@@ -488,19 +509,19 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		700BA79CB9A9A86E03BADE8810FC68D6 /* Resources */ = {
+		102F1ED48938F133A8B3BE0F6442B1A7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3987C574067E7B1FE9164526B55E7381 /* FontAwesome.ttf in Resources */,
+				A3E81BB212706A528373ED35785F79BE /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B8E99189C7DA9F5B4BF88ABE9BE651DD /* Resources */ = {
+		5FDB482FCC2EBEA7A1DACAB44361CD15 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE6E95DEB8C21E0E75571D05E32646D0 /* FontAwesome.ttf in Resources */,
+				4C3E4F19A4CFF8C417A2714AB914E96C /* FontAwesome.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,21 +536,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		3A53AD6A4FEBDC09B9A9A7C25C842B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				284C5C62428AC467E2337000573C09E7 /* FontAwesomeIcon.swift in Sources */,
+				5DE872EC088A9B37AF1EE7CC4EF24FF4 /* IconFont.swift in Sources */,
+				B6F2C9B1932E76BBDEDABA0EBA2013BA /* Iconic-tvOS-dummy.m in Sources */,
+				54C54D24A23D73DFA3AFD37E342FF2FD /* Iconic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		49E39BA4E4FAB3B5B3F87F6E38C535BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				181642A6BB61DBFF130AE26D06DEEF44 /* Pods-UnitTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E4ECF6CC21F644835FDB7B1E9CCD262 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E0499CDB2B0160214808F2A87E0C711D /* FontAwesomeIcon.swift in Sources */,
-				42AB6557434F5095FE9DAE147D9122B6 /* Iconic-iOS-dummy.m in Sources */,
-				A52806BB7B74D0692E158ABF7D18312A /* Iconic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,13 +563,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8D9549DA1BAB46C5F5963E67D47685BF /* Sources */ = {
+		BFA7CEE5F28374BFEF9745A3CF058838 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7971F2F8D897B0223A35B54717CA5BA4 /* FontAwesomeIcon.swift in Sources */,
-				EE1C1EA1B075E8C614F314A4D57E7188 /* Iconic-tvOS-dummy.m in Sources */,
-				7F7DE142BB977C12D340CF9A60A9D546 /* Iconic.swift in Sources */,
+				5035391AA25E758A0C53C98678B1014E /* FontAwesomeIcon.swift in Sources */,
+				252EAB832F50FA6A86AA87AAEB7EEDBC /* IconFont.swift in Sources */,
+				85CB5125D8CE54D55CBEC07B05B068F1 /* Iconic-iOS-dummy.m in Sources */,
+				E6657C0EE9E03F4C93A55E241C967C57 /* Iconic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -557,18 +580,47 @@
 		0610B44B33A32118C0C8C929D27763E0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Iconic-tvOS";
-			target = ABA16FF30B43B8F3E26650D8D4C0BD71 /* Iconic-tvOS */;
+			target = ABA80DE083D90CABB38D4C24F35C8D8A /* Iconic-tvOS */;
 			targetProxy = A5D37F5CAA408E82E583616C3DA808F2 /* PBXContainerItemProxy */;
 		};
 		33E2A159E471F3F0EA566DF9B6131757 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Iconic-iOS";
-			target = 5BC073EA3FFD476D4B85D717ED04FD16 /* Iconic-iOS */;
+			target = 5ACD38D4BFBC11795674DDEA00B4EBD6 /* Iconic-iOS */;
 			targetProxy = 1C2A84A97CF4AC1E8E14527DCBC9FF46 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		13E0EC666C105938D4641C074DF0909F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EDBA1E8A2C3097ECB6798C840DE53E /* Iconic-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Iconic-tvOS/Iconic-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Iconic-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Iconic-tvOS/Iconic-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Iconic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		26F54D8677A4DC717DF313A63844BA65 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D701E91EA9167EAB0BDF58F223501DD /* Pods-UnitTests.release.xcconfig */;
@@ -635,38 +687,9 @@
 			};
 			name = Release;
 		};
-		67C8CE684563A494D789FCDFF68143E4 /* Release */ = {
+		66719EC1A1947AD2543CBD5E1751C2E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F9F8B8D69F8B1A942FA0F90F0CC55D /* Iconic-tvOS.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Iconic-tvOS/Iconic-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Iconic-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Iconic-tvOS/Iconic-tvOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = Iconic;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		69AECDA64B829910D595BB184300844B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C91A7D312859955EB76EFC4AF73E8D /* Iconic-iOS.xcconfig */;
+			baseConfigurationReference = BCF86947608DD8E0BE98D29D756F9A19 /* Iconic-iOS.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -684,7 +707,6 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/Iconic-iOS/Iconic-iOS.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
 				PRODUCT_NAME = Iconic;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -723,36 +745,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9459C4EA2FEAFE59B14386D48551E8B7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 32F9F8B8D69F8B1A942FA0F90F0CC55D /* Iconic-tvOS.xcconfig */;
-			buildSettings = {
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Iconic-tvOS/Iconic-tvOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Iconic-tvOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Iconic-tvOS/Iconic-tvOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = Iconic;
-				SDKROOT = appletvos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = 3;
-				TVOS_DEPLOYMENT_TARGET = 9.0;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -862,37 +854,6 @@
 			};
 			name = Release;
 		};
-		C43C17CAE59902722E070FF984CDD7EB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A3C91A7D312859955EB76EFC4AF73E8D /* Iconic-iOS.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/Iconic-iOS/Iconic-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Iconic-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Iconic-iOS/Iconic-iOS.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "${PRODUCT_BUNDLE_IDENTIFIER}";
-				PRODUCT_NAME = Iconic;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		C4F82721F30584AC0F2E5B342243CECC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -969,6 +930,64 @@
 			};
 			name = Debug;
 		};
+		EDD63DECE484576A0EFF749A6DD6D52D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCF86947608DD8E0BE98D29D756F9A19 /* Iconic-iOS.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Iconic-iOS/Iconic-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Iconic-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Iconic-iOS/Iconic-iOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Iconic;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F6731C1882F4354CED8F063E852DDFB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95EDBA1E8A2C3097ECB6798C840DE53E /* Iconic-tvOS.xcconfig */;
+			buildSettings = {
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Iconic-tvOS/Iconic-tvOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Iconic-tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Iconic-tvOS/Iconic-tvOS.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Iconic;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -999,15 +1018,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A43C1DC3A2A21ACCD5C8168D7817D5D3 /* Build configuration list for PBXNativeTarget "Iconic-iOS" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C43C17CAE59902722E070FF984CDD7EB /* Debug */,
-				69AECDA64B829910D595BB184300844B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A8238175083A252260DEF07766E45771 /* Build configuration list for PBXNativeTarget "Pods-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1017,11 +1027,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE47F6DD88602C73E6E5394BF77FBE50 /* Build configuration list for PBXNativeTarget "Iconic-tvOS" */ = {
+		AC8D236569775A1504F873C7A420E75E /* Build configuration list for PBXNativeTarget "Iconic-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9459C4EA2FEAFE59B14386D48551E8B7 /* Debug */,
-				67C8CE684563A494D789FCDFF68143E4 /* Release */,
+				EDD63DECE484576A0EFF749A6DD6D52D /* Debug */,
+				66719EC1A1947AD2543CBD5E1751C2E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D2ABF89ADC3A0F2FE945F81CDF0F73 /* Build configuration list for PBXNativeTarget "Iconic-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E0EC666C105938D4641C074DF0909F /* Debug */,
+				F6731C1882F4354CED8F063E852DDFB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
